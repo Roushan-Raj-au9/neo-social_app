@@ -51,6 +51,7 @@ const SignUp = () => {
     if (loginUser?.encodedToken) {
         navigate('/home')
     }
+    //eslint-disable-next-line
     const togglePassword = () => {
         setPasswordShown(!passwordShown);
     };
@@ -108,9 +109,9 @@ const SignUp = () => {
                                 className='pwd_wrp'
                             >
                             </Form.Control>
-                            <span className= "password-show" onClick={togglePassword} >
+                            {/* <span className= "password-show" onClick={togglePassword} >
                                 {passwordShown ?  <i class="fa fa-eye" aria-hidden="true"></i> :  <i class="fa fa-eye-slash" aria-hidden="true"></i>}
-                            </span>
+                            </span> */}
                         </Form.Group>
                         <Form.Group controlId='confirmPassword' className='mb-2'>
                             <Form.Label> Confirm Password </Form.Label>
