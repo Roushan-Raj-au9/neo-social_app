@@ -1,0 +1,13 @@
+.users-img{
+    background: #9a9a9a;
+    border-radius: 50%;
+    width: 4.5rem;
+    height: 4.5rem;
+    cursor: pointer;
+}
+.avatar-edit{
+    display: inline-block;
+    cursor: pointer;
+    color: blue;
+    font-weight: 700;
+}

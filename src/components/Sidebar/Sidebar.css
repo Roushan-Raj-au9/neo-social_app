@@ -1,0 +1,29 @@
+.post-btn{
+    background: #ff3b30;
+    padding: .75rem;
+    color: #fff;
+    outline: none;
+    border: 1px solid #ff3b30;
+}
+.post-btn:hover, .create-btn:hover{
+    opacity: 0.8;
+    background: #ff3b30;
+    border: 1px solid #ff3b30;
+}
+.post-btn:active:focus, .create-btn:active:focus{
+  outline: none;
+  box-shadow: none;
+  background: #ff3b30;
+  border: 1px solid #ff3b30;
+}
+.create-btn{
+    background: #ff3b30;
+    border: 1px solid #ff3b30;
+    outline: none;
+}
+.modal-footer {
+    border-top: none;
+}
+.modal-header {
+    border-bottom: none;
+}

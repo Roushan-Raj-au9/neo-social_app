@@ -1,0 +1,13 @@
+.follow-container{
+    border: 1px solid #fff;
+    background: #fff;
+    padding: .625rem;
+}
+.user-mail{
+    color: #9a9a9a;
+}
+.follow{
+    color: #ff3b30;
+    font-size: 17px;
+    cursor: pointer;
+}

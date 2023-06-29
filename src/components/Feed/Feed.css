@@ -1,0 +1,39 @@
+.feed-container {
+    background: #fff;
+    border: 1px solid #fff;
+    padding: 1rem;
+}
+
+.user-img {
+    background: #9a9a9a;
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.dot-three {
+    cursor: pointer;
+}
+
+.dropdown-item:hover {
+    background-color: grey;
+    color: #fff;
+}
+
+.posts {
+    height: calc(100vh - 10.5625rem);
+    overflow-y: scroll;
+}
+
+.posts::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* .posts::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+} */
+
+.posts::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    /* outline: 1px solid slategrey; */
+}
